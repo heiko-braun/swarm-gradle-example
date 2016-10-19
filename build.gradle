@@ -6,7 +6,7 @@ buildscript {
 
     dependencies {
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
-        classpath "org.wildfly.swarm:wildfly-swarm-plugin:2016.8.1"
+        classpath "org.wildfly.swarm:wildfly-swarm-plugin:2016.10.0"
     }
 }
 
@@ -33,7 +33,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom "org.wildfly.swarm:bom-all:2016.8.1"
+        mavenBom "org.wildfly.swarm:bom-all:2016.10.0"
         mavenBom "org.jboss.arquillian:arquillian-bom:1.1.10.Final"
         mavenBom "org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6"
         mavenBom "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:2.2.3"
